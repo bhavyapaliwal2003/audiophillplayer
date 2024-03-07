@@ -1,4 +1,4 @@
-# Project Name: Audio Player
+# Project Name: Audio Phill Player
 
 ## Introduction
 This project is a web-based audio player application built with React. It allows users to upload multiple audio files, play, pause, and seek through the audio tracks. The application features a drag-and-drop interface for reordering tracks and displays the current playback time and total duration of the audio.
