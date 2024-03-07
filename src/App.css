@@ -1,0 +1,83 @@
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #EC5633, #F9EDED); /* Gradient background */
+  font-family: 'Arial', sans-serif;
+  color: #4E373A; /* Dark color for text */
+}
+
+.track-list {
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.track-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #4E373A;
+  background-color: #F9EDED; /* Light color for track items */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.track-item:hover {
+  background-color: #DF9DA0; /* Lighter color for hover effect */
+}
+
+.active-track {
+  background-color: #EABBBC; /* Active track highlight */
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  background-color: #B22F31; /* Button color */
+  color: #F9EDED; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #EC5633; /* Button hover color */
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 5px;
+  -webkit-appearance: none;
+  background: linear-gradient(to right, #f1ecec, #fdfdfd);
+  outline: none;
+  opacity: 0.7;
+  transition: opacity .2s;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #000000;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #f00206;
+  cursor: pointer;
+  border-radius: 50%;
+}
